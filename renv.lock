@@ -3585,8 +3585,9 @@
     },
     "qvalue": {
       "Package": "qvalue",
-      "Version": "2.34.0",
+      "Version": "2.38.0",
       "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.20",
       "Requirements": [
         "R",
         "ggplot2",
@@ -3594,7 +3595,7 @@
         "reshape2",
         "splines"
       ],
-      "Hash": "76fc42834c44b69e4021f6ade524d299"
+      "Hash": "fdb303604fa09d7a199ecb6feadf4742"
     },
     "ragg": {
       "Package": "ragg",

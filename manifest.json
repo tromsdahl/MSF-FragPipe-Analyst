@@ -7648,7 +7648,7 @@
         "Package": "qvalue",
         "Type": "Package",
         "Title": "Q-value estimation for false discovery rate control",
-        "Version": "2.34.0",
+        "Version": "2.38.0",
         "Date": "2015-03-24",
         "Authors@R": "as.person(c(\n    \"John D. Storey <jdstorey@princeton.edu> [aut, cre]\", \n    \"Andrew J. Bass <ajbass@emory.edu> [aut]\", \n    \"Alan Dabney [aut]\",\n    \"David Robinson [aut]\",\n    \"Gregory Warnes [ctb]\"\n  ))",
         "Maintainer": "John D. Storey <jstorey@princeton.edu>, Andrew J. Bass\n<ajbass@emory.edu>",
@@ -7662,14 +7662,22 @@
         "License": "LGPL",
         "RoxygenNote": "5.0.1",
         "git_url": "https://git.bioconductor.org/packages/qvalue",
-        "git_branch": "RELEASE_3_18",
-        "git_last_commit": "92e1f55",
-        "git_last_commit_date": "2023-10-24",
-        "Date/Publication": "2023-10-24",
+        "git_branch": "RELEASE_3_20",
+        "git_last_commit": "7673a25",
+        "git_last_commit_date": "2024-10-29",
+        "Repository": "Bioconductor 3.20",
+        "Date/Publication": "2024-10-29",
         "NeedsCompilation": "no",
-        "Packaged": "2023-10-24 22:35:16 UTC; biocbuild",
+        "Packaged": "2024-10-30 02:18:04 UTC; biocbuild",
         "Author": "John D. Storey [aut, cre],\n  Andrew J. Bass [aut],\n  Alan Dabney [aut],\n  David Robinson [aut],\n  Gregory Warnes [ctb]",
-        "Built": "R 4.3.2; ; 2023-11-29 18:18:46 UTC; unix"
+        "Built": "R 4.4.3; ; 2026-09-17 18:23:31 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "qvalue",
+        "RemoteRef": "qvalue",
+        "RemoteRepos": "https://bioconductor.org/packages/3.20/bioc",
+        "RemoteReposName": "BioCsoft",
+        "RemotePkgPlatform": "source",
+        "RemoteSha": "2.38.0"
       }
     },
     "ragg": {
@@ -10419,7 +10427,7 @@
       "checksum": "1a1636126d33d3e546e4f9a29beba85b"
     },
     ".Rprofile": {
-      "checksum": "f054bbc8c54aafe7ed756272f6fa7de3"
+      "checksum": "b7f2cc30454e33061978d77633bb861e"
     },
     "data/create_example_data.R": {
       "checksum": "1f9dc4ec47186e5400dd5270444e3ef6"
@@ -10476,7 +10484,7 @@
       "checksum": "b278f35cb81a1cfa5dd62fac839ae133"
     },
     "renv.lock": {
-      "checksum": "b8fe78511e457a028175ef9f198efb9a"
+      "checksum": "6d74bf5a334fc15d708a4ac0ab2bf296"
     },
     "reports/DIA_report.Rmd": {
       "checksum": "f80ba7b92c715a73f1da3a0c3cffd836"
