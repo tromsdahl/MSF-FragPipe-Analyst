@@ -4582,8 +4582,9 @@
     },
     "treeio": {
       "Package": "treeio",
-      "Version": "1.26.0",
+      "Version": "1.30.0",
       "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.20",
       "Requirements": [
         "R",
         "ape",
@@ -4595,9 +4596,10 @@
         "stats",
         "tibble",
         "tidytree",
-        "utils"
+        "utils",
+        "yulab.utils"
       ],
-      "Hash": "a09203806aa0bc49965563ca7016620e"
+      "Hash": "07d4ed80da9d99b9cc77dfe80e23a7c7"
     },
     "tweenr": {
       "Package": "tweenr",
