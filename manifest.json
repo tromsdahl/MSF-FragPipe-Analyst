@@ -4230,6 +4230,64 @@
         "RemoteSha": "1.1-4"
       }
     },
+    "fontBitstreamVera": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "fontBitstreamVera",
+        "Title": "Fonts with 'Bitstream Vera Fonts' License",
+        "Version": "0.1.1",
+        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", , \"lionel.hry@gmail.com\", c(\"cre\", \"aut\")),\n    person(\"Bitstream\", role = \"cph\"))",
+        "Description": "Provides fonts licensed under the 'Bitstream Vera Fonts'\n    license for the 'fontquiver' package.",
+        "Depends": "R (>= 3.0.0)",
+        "License": "file LICENCE",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "5.0.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2017-01-31 20:03:43 UTC; lionel",
+        "Author": "Lionel Henry [cre, aut],\n  Bitstream [cph]",
+        "Maintainer": "Lionel Henry <lionel.hry@gmail.com>",
+        "License_is_FOSS": "yes",
+        "Repository": "CRAN",
+        "Date/Publication": "2017-02-01 00:53:34",
+        "Built": "R 4.4.3; ; 2025-10-08 13:21:54 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "fontBitstreamVera",
+        "RemoteRef": "fontBitstreamVera",
+        "RemoteRepos": "https://cloud.r-project.org",
+        "RemoteSha": "0.1.1"
+      }
+    },
+    "fontLiberation": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "fontLiberation",
+        "Title": "Liberation Fonts",
+        "Version": "0.1.0",
+        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", \"cre\"),\n    person(\"Pravin Satpute\", role = \"aut\"),\n    person(\"Steve Matteson\", role = \"aut\"),\n    person(\"Red Hat, Inc\", role = \"cph\"),\n    person(\"Google Corporation\", role = \"cph\"))",
+        "Description": "A placeholder for the Liberation fontset intended for the\n    `fontquiver` package. This fontset covers the 12 combinations of\n    families (sans, serif, mono) and faces (plain, bold, italic, bold\n    italic) supported in R graphics devices.",
+        "Depends": "R (>= 3.0)",
+        "License": "file LICENSE",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "5.0.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2016-10-14 14:21:59 UTC; lionel",
+        "Author": "Lionel Henry [cre],\n  Pravin Satpute [aut],\n  Steve Matteson [aut],\n  Red Hat, Inc [cph],\n  Google Corporation [cph]",
+        "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2016-10-15 11:24:18",
+        "License_is_FOSS": "yes",
+        "Built": "R 4.4.3; ; 2025-10-08 13:21:54 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "fontLiberation",
+        "RemoteRef": "fontLiberation",
+        "RemoteRepos": "https://cloud.r-project.org",
+        "RemoteSha": "0.1.0"
+      }
+    },
     "fontawesome": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -4264,6 +4322,37 @@
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.5.3"
+      }
+    },
+    "fontquiver": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "fontquiver",
+        "Title": "Set of Installed Fonts",
+        "Version": "0.2.1",
+        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", c(\"cre\", \"aut\")),\n    person(\"RStudio\", role = \"cph\"),\n    person(\"George Douros\", role = \"cph\", comment = \"Symbola font\"))",
+        "Description": "Provides a set of fonts with permissive licences. This is\n    useful when you want to avoid system fonts to make sure your\n    outputs are reproducible.",
+        "Depends": "R (>= 3.0.0)",
+        "Imports": "fontBitstreamVera (>= 0.1.0), fontLiberation (>= 0.1.0)",
+        "Suggests": "testthat, htmltools",
+        "License": "GPL-3 | file LICENSE",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "5.0.1",
+        "Collate": "'font-getters.R' 'fontset.R' 'fontset-bitstream-vera.R'\n'fontset-dejavu.R' 'fontset-liberation.R' 'fontset-symbola.R'\n'html-dependency.R' 'utils.R'",
+        "NeedsCompilation": "no",
+        "Packaged": "2017-01-31 20:11:24 UTC; lionel",
+        "Author": "Lionel Henry [cre, aut],\n  RStudio [cph],\n  George Douros [cph] (Symbola font)",
+        "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2017-02-01 00:52:56",
+        "Built": "R 4.4.3; ; 2025-10-08 13:21:54 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "fontquiver",
+        "RemoteRef": "fontquiver",
+        "RemoteRepos": "https://cloud.r-project.org",
+        "RemoteSha": "0.2.1"
       }
     },
     "forcats": {
@@ -4561,6 +4650,39 @@
         "RemoteSha": "1.6.1"
       }
     },
+    "gdtools": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "gdtools",
+        "Title": "Font Metrics and Font Management Utilities for R Graphics",
+        "Version": "0.5.1",
+        "Authors@R": "c(\n    person(\"David\", \"Gohel\", , \"david.gohel@ardata.fr\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\"),\n    person(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", role = \"aut\"),\n    person(\"Jeroen\", \"Ooms\", , \"jeroen@berkeley.edu\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Yixuan\", \"Qiu\", role = \"ctb\"),\n    person(\"R Core Team\", role = \"cph\",\n           comment = \"Cairo code from X11 device\"),\n    person(\"ArData\", role = \"cph\"),\n    person(\"RStudio\", role = \"cph\")\n  )",
+        "Description": "Compute text metrics (width, ascent, descent) using 'Cairo'\n    and 'FreeType', independently of the active graphic device. Font\n    lookup is delegated to 'systemfonts'. Additional utilities let users\n    register 'Google Fonts' or bundled 'Liberation' fonts, check font\n    availability, and assemble 'htmlDependency' objects so that fonts are\n    correctly embedded in 'Shiny' applications, 'R Markdown' documents,\n    and 'htmlwidgets' outputs such as 'ggiraph'.",
+        "License": "GPL-3 | file LICENSE",
+        "URL": "https://davidgohel.github.io/gdtools/",
+        "BugReports": "https://github.com/davidgohel/gdtools/issues",
+        "Depends": "R (>= 4.0.0)",
+        "Imports": "fontquiver (>= 0.2.0), htmltools, Rcpp (>= 0.12.12),\nsystemfonts (>= 1.3.1), tools",
+        "Suggests": "curl, gfonts, methods, testthat",
+        "LinkingTo": "Rcpp",
+        "Encoding": "UTF-8",
+        "SystemRequirements": "cairo, freetype2, fontconfig",
+        "Config/roxygen2/version": "8.0.0",
+        "NeedsCompilation": "yes",
+        "Packaged": "2026-05-25 16:16:18 UTC; davidgohel",
+        "Author": "David Gohel [aut, cre],\n  Hadley Wickham [aut],\n  Lionel Henry [aut],\n  Jeroen Ooms [aut] (ORCID: <https://orcid.org/0000-0002-4035-0289>),\n  Yixuan Qiu [ctb],\n  R Core Team [cph] (Cairo code from X11 device),\n  ArData [cph],\n  RStudio [cph]",
+        "Maintainer": "David Gohel <david.gohel@ardata.fr>",
+        "Repository": "CRAN",
+        "Date/Publication": "2026-05-25 17:10:02 UTC",
+        "Built": "R 4.4.3; x86_64-pc-linux-gnu; 2026-05-26 13:21:10 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "gdtools",
+        "RemoteRef": "gdtools",
+        "RemoteRepos": "https://cloud.r-project.org",
+        "RemoteSha": "0.5.1"
+      }
+    },
     "generics": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -4692,6 +4814,42 @@
         "RemoteReposName": "CRAN",
         "RemotePkgPlatform": "source",
         "RemoteSha": "0.2.1"
+      }
+    },
+    "ggiraph": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Type": "Package",
+        "Package": "ggiraph",
+        "Title": "Make 'ggplot2' Graphics Interactive",
+        "Version": "0.9.6",
+        "Authors@R": "c(\n    person(\"David\", \"Gohel\", , \"david.gohel@ardata.fr\", role = c(\"aut\", \"cre\")),\n    person(\"Panagiotis\", \"Skintzos\", , \"sigmapi@posteo.net\", role = \"aut\"),\n    person(\"Mike\", \"Bostock\", role = \"cph\",\n           comment = \"d3.js\"),\n    person(\"Speros\", \"Kokenes\", role = \"cph\",\n           comment = \"d3-lasso\"),\n    person(\"Eric\", \"Shull\", role = \"cph\",\n           comment = \"saveSvgAsPng js library\"),\n    person(\"Lee\", \"Thomason\", role = \"cph\",\n           comment = \"TinyXML2\"),\n    person(\"Vladimir\", \"Agafonkin\", role = \"cph\",\n           comment = \"Flatbush\"),\n    person(\"Eric\", \"Book\", role = \"ctb\",\n           comment = \"hline and vline geoms\")\n  )",
+        "Description": "Create interactive 'ggplot2' graphics using 'htmlwidgets'.",
+        "License": "GPL-3",
+        "URL": "https://davidgohel.github.io/ggiraph/",
+        "BugReports": "https://github.com/davidgohel/ggiraph/issues",
+        "Imports": "cli, dplyr, gdtools (>= 0.5.0), ggplot2 (>= 4.0.0), grid,\nhtmltools, htmlwidgets (>= 1.5), MASS, purrr, Rcpp (>= 1.1.0),\nrlang, S7 (>= 0.2.0), stats, systemfonts (>= 1.3.1), vctrs",
+        "Suggests": "ggbeeswarm, ggrepel (>= 0.9.1), hexbin, knitr, maps,\nquantreg, rmarkdown, sf (>= 1.0), shiny, tinytest, xml2 (>=\n1.0)",
+        "LinkingTo": "Rcpp, systemfonts",
+        "VignetteBuilder": "knitr",
+        "Copyright": "See file COPYRIGHTS.",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.3",
+        "SystemRequirements": "libpng",
+        "Collate": "'RcppExports.R' 'ipar.R' 'utils_ggplot2_performance.R'\n'utils_ggplot2.R' 'utils.R' 'annotate_interactive.R'\n'annotation_raster_interactive.R' 'utils_css.R' 'fonts.R'\n'girafe_options.R' 'default.R' 'dsvg.R' 'dsvg_view.R'\n'element_interactive.R' 'facet_interactive.R'\n'geom_abline_interactive.R' 'geom_path_interactive.R'\n'geom_polygon_interactive.R' 'geom_rect_interactive.R'\n'geom_bar_interactive.R' 'geom_bin_2d_interactive.R'\n'geom_boxplot_interactive.R' 'geom_col_interactive.R'\n'geom_contour_interactive.R' 'geom_count_interactive.R'\n'geom_crossbar_interactive.R' 'geom_curve_interactive.R'\n'geom_density_2d_interactive.R' 'geom_density_interactive.R'\n'geom_dotplot_interactive.R' 'geom_errorbar_interactive.R'\n'geom_errorbarh_interactive.R' 'geom_freqpoly_interactive.R'\n'geom_hex_interactive.R' 'geom_histogram_interactive.R'\n'geom_hline_interactive.R' 'geom_jitter_interactive.R'\n'geom_label_interactive.R' 'geom_linerange_interactive.R'\n'geom_map_interactive.R' 'geom_point_interactive.R'\n'geom_pointrange_interactive.R' 'geom_quantile_interactive.R'\n'geom_quasirandom_interactive.R' 'geom_raster_interactive.R'\n'geom_ribbon_interactive.R' 'geom_segment_interactive.R'\n'geom_sf_interactive.R' 'geom_smooth_interactive.R'\n'geom_spoke_interactive.R' 'geom_text_interactive.R'\n'geom_text_repel_interactive.R' 'geom_tile_interactive.R'\n'geom_violin_interactive.R' 'geom_vline_interactive.R'\n'ggiraph.R' 'girafe.R' 'girafe_class.R' 'grob_interactive.R'\n'guide_bins_interactive.R' 'guide_colourbar_interactive.R'\n'guide_coloursteps_interactive.R' 'guide_interactive.R'\n'guide_legend_interactive.R' 'interactive_circle_grob.R'\n'interactive_curve_grob.R' 'interactive_path_grob.R'\n'interactive_points_grob.R' 'interactive_polygon_grob.R'\n'interactive_polyline_grob.R' 'interactive_raster_grob.R'\n'interactive_rect_grob.R' 'interactive_roundrect_grob.R'\n'interactive_segments_grob.R' 'interactive_text_grob.R'\n'labeller_interactive.R' 'layer_interactive.R'\n'scale_alpha_interactive.R' 'scale_brewer_interactive.R'\n'scale_colour_interactive.R' 'scale_gradient_interactive.R'\n'scale_interactive.R' 'scale_linetype_interactive.R'\n'scale_manual_interactive.R' 'scale_shape_interactive.R'\n'scale_size_interactive.R' 'scale_steps_interactive.R'\n'scale_viridis_interactive.R' 'tracers.R' 'utils_data.r'",
+        "NeedsCompilation": "yes",
+        "Packaged": "2026-02-20 10:33:18 UTC; davidgohel",
+        "Author": "David Gohel [aut, cre],\n  Panagiotis Skintzos [aut],\n  Mike Bostock [cph] (d3.js),\n  Speros Kokenes [cph] (d3-lasso),\n  Eric Shull [cph] (saveSvgAsPng js library),\n  Lee Thomason [cph] (TinyXML2),\n  Vladimir Agafonkin [cph] (Flatbush),\n  Eric Book [ctb] (hline and vline geoms)",
+        "Maintainer": "David Gohel <david.gohel@ardata.fr>",
+        "Repository": "CRAN",
+        "Date/Publication": "2026-02-21 10:50:02 UTC",
+        "Built": "R 4.4.3; x86_64-pc-linux-gnu; 2026-02-23 14:09:00 UTC; unix",
+        "RemoteType": "standard",
+        "RemotePkgRef": "ggiraph",
+        "RemoteRef": "ggiraph",
+        "RemoteRepos": "https://cloud.r-project.org",
+        "RemoteSha": "0.9.6"
       }
     },
     "ggnewscale": {
@@ -4983,38 +5141,42 @@
       }
     },
     "ggtree": {
-      "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.20/bioc",
+      "Source": "github",
+      "Repository": null,
       "description": {
         "Package": "ggtree",
         "Type": "Package",
         "Title": "an R package for visualization of tree and annotation data",
-        "Version": "3.10.0",
+        "Version": "4.3.1",
         "Authors@R": "c(\n       person(\"Guangchuang\", \"Yu\",     email = \"guangchuangyu@gmail.com\", role = c(\"aut\", \"cre\", \"cph\"), \n            comment = c(ORCID = \"0000-0002-6485-8781\")),\n       person(\"Tommy Tsan-Yuk\", \"Lam\", email = \"tylam.tommy@gmail.com\",   role = c(\"aut\", \"ths\")),\n       person(\"Shuangbin\", \"Xu\",       email = \"xshuangbin@163.com\",      role = \"aut\", \n            comment = c(ORCID=\"0000-0003-3513-5362\")),\n       person(\"Lin\", \" Li\",            email = \"williamlee2220@qq.com\",   role = \"ctb\"),\n       person(\"Bradley\", \"Jones\",      email = \"bjones@cfenet.ubc.ca\",    role = \"ctb\"),\n       person(\"Justin\", \"Silverman\",   email = \"jsilve24@gmail.com\",      role = \"ctb\"),\n       person(\"Watal M.\", \"Iwasaki\",   email = \"heavy.watal@gmail.com\",   role = \"ctb\"),\n       person(\"Yonghe\", \"Xia\",         email = \"xiayh17@gmail.com\",       role = \"ctb\"),\n       person(\"Ruizhu\", \"Huang\",       email = \"ruizhuRH@gmail.com\",      role = \"ctb\")\n       )",
         "Maintainer": "Guangchuang Yu <guangchuangyu@gmail.com>",
         "Description": "'ggtree' extends the 'ggplot2' plotting system which implemented\n    the grammar of graphics. 'ggtree' is designed for visualization and annotation\n    of phylogenetic trees and other tree-like structures with their annotation data.",
-        "Depends": "R (>= 3.5.0)",
-        "Imports": "ape, aplot, dplyr, ggplot2 (> 3.3.6), grid, magrittr, methods,\npurrr, rlang, ggfun (>= 0.0.9), yulab.utils, tidyr, tidytree\n(>= 0.4.5), treeio (>= 1.8.0), utils, scales, stats, cli",
-        "Suggests": "emojifont, ggimage, ggplotify, shadowtext, grDevices, knitr,\nprettydoc, rmarkdown, testthat, tibble, glue",
-        "Remotes": "GuangchuangYu/treeio",
+        "Depends": "R (>= 4.2.0)",
+        "Imports": "ape,\naplot,\ncli,\ndplyr,\nggfun (>= 0.1.7),\nggiraph (>= 0.9.1),\nggplot2 (>= 4.0.0),\ngrid,\nmagrittr,\nmethods,\npurrr,\nrlang,\nscales,\nstats,\ntidyr,\ntidytree (>= 0.4.5),\ntreeio (>= 1.8.0),\nutils,\nyulab.utils (>= 0.2.3)",
+        "Suggests": "emojifont,\nggimage,\nggplotify,\nshadowtext,\ngrDevices,\nknitr,\nprettydoc,\nrmarkdown,\nigraph,\ntestthat,\ntibble,\nglue,\nBiostrings",
         "VignetteBuilder": "knitr",
         "ByteCompile": "true",
         "Encoding": "UTF-8",
         "License": "Artistic-2.0",
-        "URL": "https://www.amazon.com/Integration-Manipulation-Visualization-Phylogenetic-Computational-ebook/dp/B0B5NLZR1Z/\n(book),\nhttp://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628\n(paper)",
+        "URL": "https://www.amazon.com/Integration-Manipulation-Visualization-Phylogenetic-Computational-ebook/dp/B0B5NLZR1Z/ (book), http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628 (paper)",
         "BugReports": "https://github.com/YuLab-SMU/ggtree/issues",
-        "Packaged": "2023-10-24 21:22:43 UTC; biocbuild",
-        "biocViews": "Alignment, Annotation, Clustering, DataImport,\nMultipleSequenceAlignment, Phylogenetics, ReproducibleResearch,\nSoftware, Visualization",
-        "RoxygenNote": "7.2.3",
+        "Packaged": "2014-12-03 08:16:14 UTC; root",
+        "biocViews": "Alignment, Annotation, Clustering, DataImport,\nMultipleSequenceAlignment, Phylogenetics, ReproducibleResearch, Software, Visualization",
         "Roxygen": "list(markdown = TRUE)",
-        "git_url": "https://git.bioconductor.org/packages/ggtree",
-        "git_branch": "RELEASE_3_18",
-        "git_last_commit": "00dcbae",
-        "git_last_commit_date": "2023-10-24",
-        "Date/Publication": "2023-10-24",
-        "NeedsCompilation": "no",
+        "Config/roxygen2/version": "8.0.0",
         "Author": "Guangchuang Yu [aut, cre, cph]\n    (<https://orcid.org/0000-0002-6485-8781>),\n  Tommy Tsan-Yuk Lam [aut, ths],\n  Shuangbin Xu [aut] (<https://orcid.org/0000-0003-3513-5362>),\n  Lin Li [ctb],\n  Bradley Jones [ctb],\n  Justin Silverman [ctb],\n  Watal M. Iwasaki [ctb],\n  Yonghe Xia [ctb],\n  Ruizhu Huang [ctb]",
-        "Built": "R 4.3.2; ; 2023-11-29 18:21:25 UTC; unix"
+        "Built": "R 4.4.3; ; 2026-09-17 19:10:47 UTC; unix",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteUsername": "YuLab-SMU",
+        "RemoteRepo": "ggtree",
+        "RemoteRef": "devel",
+        "RemoteSha": "68bb5532c1b0ed9283f2ca7b9b0df57c40d49b79",
+        "GithubHost": "api.github.com",
+        "GithubRepo": "ggtree",
+        "GithubUsername": "YuLab-SMU",
+        "GithubRef": "devel",
+        "GithubSHA1": "68bb5532c1b0ed9283f2ca7b9b0df57c40d49b79"
       }
     },
     "git2r": {
@@ -10395,7 +10557,7 @@
       "checksum": "1a1636126d33d3e546e4f9a29beba85b"
     },
     ".Rprofile": {
-      "checksum": "82dc05a299a1d333c7e2234f2cb72af7"
+      "checksum": "3ce4c82dc6cf04119ee66f917992c503"
     },
     "data/create_example_data.R": {
       "checksum": "1f9dc4ec47186e5400dd5270444e3ef6"
@@ -10452,7 +10614,7 @@
       "checksum": "b278f35cb81a1cfa5dd62fac839ae133"
     },
     "renv.lock": {
-      "checksum": "9594dfc5431178c9243b1b82f3f21ec5"
+      "checksum": "de2dbf126a8357a741073401e61928d9"
     },
     "reports/DIA_report.Rmd": {
       "checksum": "f80ba7b92c715a73f1da3a0c3cffd836"

@@ -2045,6 +2045,26 @@
       ],
       "Hash": "9072c6a71569a18574aaa509d76af46a"
     },
+    "fontBitstreamVera": {
+      "Package": "fontBitstreamVera",
+      "Version": "0.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "f6068021eff4aba735a9b2353516636c"
+    },
+    "fontLiberation": {
+      "Package": "fontLiberation",
+      "Version": "0.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "f918c5e723f86f409912104d5b7a71d6"
+    },
     "fontawesome": {
       "Package": "fontawesome",
       "Version": "0.5.3",
@@ -2056,6 +2076,18 @@
         "rlang"
       ],
       "Hash": "bd1297f9b5b1fc1372d19e2c4cd82215"
+    },
+    "fontquiver": {
+      "Package": "fontquiver",
+      "Version": "0.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "fontBitstreamVera",
+        "fontLiberation"
+      ],
+      "Hash": "fc0f4226379e451057d55419fd31761e"
     },
     "forcats": {
       "Package": "forcats",
@@ -2188,6 +2220,21 @@
       ],
       "Hash": "99e4f3f00be5075372bb650a3e237a71"
     },
+    "gdtools": {
+      "Package": "gdtools",
+      "Version": "0.5.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "Rcpp",
+        "fontquiver",
+        "htmltools",
+        "systemfonts",
+        "tools"
+      ],
+      "Hash": "bca589967c4b7360ced3c08c69a96787"
+    },
     "generics": {
       "Package": "generics",
       "Version": "0.1.4",
@@ -2263,6 +2310,30 @@
         "yulab.utils"
       ],
       "Hash": "bafb958f194987b79f8bc9a9f8831db9"
+    },
+    "ggiraph": {
+      "Package": "ggiraph",
+      "Version": "0.9.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "MASS",
+        "Rcpp",
+        "S7",
+        "cli",
+        "dplyr",
+        "gdtools",
+        "ggplot2",
+        "grid",
+        "htmltools",
+        "htmlwidgets",
+        "purrr",
+        "rlang",
+        "stats",
+        "systemfonts",
+        "vctrs"
+      ],
+      "Hash": "93c68b119a15767021200cffc7b98b7d"
     },
     "ggnewscale": {
       "Package": "ggnewscale",
@@ -2431,8 +2502,14 @@
     },
     "ggtree": {
       "Package": "ggtree",
-      "Version": "3.10.0",
-      "Source": "Bioconductor",
+      "Version": "4.3.1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "YuLab-SMU",
+      "RemoteRepo": "ggtree",
+      "RemoteRef": "devel",
+      "RemoteSha": "68bb5532c1b0ed9283f2ca7b9b0df57c40d49b79",
       "Requirements": [
         "R",
         "ape",
@@ -2440,6 +2517,7 @@
         "cli",
         "dplyr",
         "ggfun",
+        "ggiraph",
         "ggplot2",
         "grid",
         "magrittr",
@@ -2454,7 +2532,7 @@
         "utils",
         "yulab.utils"
       ],
-      "Hash": "f009cfa13d3884c01cc6300443e397eb"
+      "Hash": "825574b4e105dee05a910d739d51d7a0"
     },
     "git2r": {
       "Package": "git2r",
