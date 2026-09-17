@@ -692,22 +692,26 @@ server <- function(input, output, session) {
          )))
        }
        exp_anno <- exp_design()
-       # for older version files, file names with file extension (such as .d) and full path will be in the column names of matrix
-       # but in the newer version of DIA-NN (newer than 1.8.2 beta 8), it writes the column names with folder name removed and suffix were removed as well 
-       if (any(grepl("(?:_calibrated|_uncalibrated)?\\.[^.]+$", colnames(data_unique)))) {
-         exp_anno$file <- gsub("\\.[^.]+$", "", exp_anno$file)
-         colnames(data_unique)[selected_cols] <- gsub("(?:_calibrated|_uncalibrated)?\\.[^.]+$", "", colnames(data_unique)[selected_cols])
-       } else if ((!any(grepl("\\.mzML$", colnames(data_unique)))) & any(grepl("\\.mzML$", exp_anno$file))) {
-         exp_anno$file <- gsub(".*\\\\", "", gsub("\\.mzML$", "", exp_anno$file))
-       } else if ((!any(grepl("\\.raw$", colnames(data_unique)))) & any(grepl("\\.raw$", exp_anno$file))) {
-         exp_anno$file <- gsub(".*\\\\", "", gsub("\\.raw$", "", exp_anno$file))
-       } else if ((!any(grepl("\\.d$", colnames(data_unique)))) & any(grepl("\\.d$", exp_anno$file))) {
-         exp_anno$file <- gsub(".*\\\\", "", gsub("\\.d$", "", exp_anno$file))
+       # DIA-NN may write either full Windows paths or basenames, with or
+       # without the calibrated/uncalibrated suffix. Compare canonical keys,
+       # then retain the exact matrix header for make_se_customized().
+       normalize_dia_file <- function(x) {
+         x <- sub("^.*[\\\\/]", "", x)
+         x <- sub("(?i)(?:_calibrated|_uncalibrated)?\\.[^.]+$", "", x, perl = TRUE)
+         tolower(x)
        }
-       # make sure replicate column is not empty
-       if (!all(is.na(exp_anno$replicate))) {
-         exp_anno$label <- exp_anno$file
+       matrix_files <- colnames(data_unique)[selected_cols]
+       matched <- match(normalize_dia_file(exp_anno$file),
+                        normalize_dia_file(matrix_files))
+       if (anyNA(matched)) {
+         unmatched <- exp_anno$file[is.na(matched)]
+         stop(safeError(paste0(
+           "The following annotation file(s) were not found in the DIA report: ",
+           paste(unmatched, collapse = ", "),
+           ". Check the file column and the pg.matrix headers."
+         )))
        }
+       exp_anno$label <- matrix_files[matched]
        test_match_DIA_column_design(data_unique, selected_cols, exp_anno)
        data_se <- make_se_customized(data_unique, selected_cols, exp_anno,
                                      log2transform=T, exp="DIA", level=level)
