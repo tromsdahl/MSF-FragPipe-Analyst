@@ -152,7 +152,7 @@
       "description": {
         "Package": "BiocFileCache",
         "Title": "Manage Files Across Sessions",
-        "Version": "2.10.1",
+        "Version": "2.12.0",
         "Authors@R": "c(person(\"Lori\", \"Shepherd\",\n      email = \"lori.shepherd@roswellpark.org\",\n      role = c(\"aut\", \"cre\")),\n    person(\"Martin\", \"Morgan\",\n      email = \"martin.morgan@roswellpark.org\",\n      role = \"aut\"))",
         "Description": "This package creates a persistent on-disk cache of files\n    that the user can add, update, and retrieve. It is useful for\n    managing resources (such as custom Txdb objects) that are costly\n    or difficult to create, web resources, and data files used across\n    sessions.",
         "Depends": "R (>= 3.4.0), dbplyr (>= 1.0.0)",
@@ -166,15 +166,16 @@
         "VignetteBuilder": "knitr",
         "Suggests": "testthat, knitr, BiocStyle, rmarkdown, rtracklayer",
         "git_url": "https://git.bioconductor.org/packages/BiocFileCache",
-        "git_branch": "RELEASE_3_18",
-        "git_last_commit": "b3c5bdd",
-        "git_last_commit_date": "2023-10-26",
-        "Date/Publication": "2023-10-26",
+        "git_branch": "RELEASE_3_19",
+        "git_last_commit": "a655653",
+        "git_last_commit_date": "2024-04-30",
+        "Repository": "Bioconductor 3.19",
+        "Date/Publication": "2024-04-30",
         "NeedsCompilation": "no",
-        "Packaged": "2023-10-26 20:05:17 UTC; biocbuild",
+        "Packaged": "2024-05-01 02:46:01 UTC; biocbuild",
         "Author": "Lori Shepherd [aut, cre],\n  Martin Morgan [aut]",
         "Maintainer": "Lori Shepherd <lori.shepherd@roswellpark.org>",
-        "Built": "R 4.3.2; ; 2023-12-12 17:37:18 UTC; unix"
+        "Built": "R 4.4.3; ; 2026-09-17 18:18:08 UTC; unix"
       }
     },
     "BiocGenerics": {
@@ -10418,7 +10419,7 @@
       "checksum": "1a1636126d33d3e546e4f9a29beba85b"
     },
     ".Rprofile": {
-      "checksum": "199c32466b701d0c4d728b3b44391832"
+      "checksum": "f054bbc8c54aafe7ed756272f6fa7de3"
     },
     "data/create_example_data.R": {
       "checksum": "1f9dc4ec47186e5400dd5270444e3ef6"
@@ -10475,7 +10476,7 @@
       "checksum": "b278f35cb81a1cfa5dd62fac839ae133"
     },
     "renv.lock": {
-      "checksum": "cf7288eab797300e7359e2c48903d62e"
+      "checksum": "b8fe78511e457a028175ef9f198efb9a"
     },
     "reports/DIA_report.Rmd": {
       "checksum": "f80ba7b92c715a73f1da3a0c3cffd836"
@@ -10502,7 +10503,7 @@
       "checksum": "7b460da255589af8cba63a6764337c41"
     },
     "server.R": {
-      "checksum": "6385cf692723b48e634719fb45420032"
+      "checksum": "e4947e1b02ec4ebda0382d1c3087bbd7"
     },
     "shiny-server.conf": {
       "checksum": "98e1ae8224ca35bf786081206cbadda8"
